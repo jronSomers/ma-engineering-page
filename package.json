@@ -1,0 +1,24 @@
+{
+  "name": "ma-engineering-page",
+  "version": "0.0.1",
+  "description": "MA Hackathon Engineer Page Project",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-bootstrap": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jronSomers/ma-engineering-page.git"
+  },
+  "author": "Jessica Eng, Jonathan SPeegl, Jaron Somers, Sujay Bandarpalle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jronSomers/ma-engineering-page/issues"
+  },
+  "homepage": "https://github.com/jronSomers/ma-engineering-page#readme"
+}
