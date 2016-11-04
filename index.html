@@ -7,12 +7,59 @@
 
 	<title>Moody's Analytics Engineering</title>
 
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 <body>
 
-	<section id="landing">
+    <header class="navbar navbar-moodys navbar-fixed-top navbar-inner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-3" ng-click="isCollapsed = !isCollapsed">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand visible-xs" href="#">Moody's Analytics</a>
+            </div>
+            <nav class="hidden-xs">
+                <ul class="nav navbar-nav">
+                    <a href="#top" role="button" class="navbar-brand">
+                        Moody's Analytics
+                        <!--<img src="img/MA_RGB_White.gif" alt="Moody's Analytics">-->
+                    </a>
+                    
+                    <li><a href="#technology">Technology</a></li>
+                    <li><a href="#culture">Culture</a></li>
+                    <li><a href="#get-involved">Get Involved</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                </ul>
+            </nav>
+            <nav class="visible-xs collapse" uib-collapse="!isCollapsed" style="height: 0px;">
+                <ul class="nav navbar-nav">
+                    <li><a href="#getting_started" ng-click="isCollapsed = !isCollapsed">Getting started</a></li>
+                    <li><a href="#directives_small" ng-click="isCollapsed = !isCollapsed">Directives</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+	<section id="main">
+        <div class="header-wrap">
+            <div class="landing">
+                <!--<object id="logo" data="img/MA_RGB_White.gif" type="image/gif"></object>-->
+                <h1 id="logo">Moody's Analytics<br>Engineering</h1>
+            </div>
+
+            <section class="video-bg">
+                <video autoplay loop>
+                    <source src="img/mia-bg.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+        </div>
 	</section>
     
 	<section id="technology">
@@ -27,6 +74,7 @@
     <section id="careers">
 	</section>
 
+	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 
 </body>
