@@ -47,6 +47,11 @@ h2 {
 }
 
 /* .landing */
+
+#main {
+  margin-top: 50px;
+}
+
 .header-wrap {
   height: 100vh;
 }
@@ -54,6 +59,7 @@ h2 {
 .video-bg {
   overflow: hidden;
   position: absolute;
+  margin-top: 50px;
   height: 100vh;
   width: 100%;
   top: 0;
