@@ -320,3 +320,104 @@ h2 {
             transform: scale(1);
   }
 }
+
+/*Get involved styles*/
+.universalFont {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.sectionHeader {
+	color: white;
+	text-align: center;
+}
+
+.subSectionHeader {
+	color: white;
+	text-align: center;
+}
+
+.subSectionParagraph {
+	color: white;
+}
+
+#get-involved {
+	background: #4c4c4c;
+	padding-top: 10px;
+	padding-bottom: 20px;
+  margin-top:20px;
+}
+
+.hackerRankSection {
+	align-content: center;
+	background: #2EC866;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 10px;
+}
+
+.meetUpSection {
+	align-content: center;
+	background: #ED1C40;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 10px;
+}
+
+.hackerRankButton {
+	background: #208c47;
+	border: 1px solid white;
+	color: white;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hackerRankButton:hover {
+	background: #1b783d;
+}
+
+.hackerRankButton:active{
+	background: #176433;
+}
+
+.meetUpButton {
+	background: #a5132c;
+	border: 1px solid white;
+	color: white;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.meetUpButton:hover {
+	background: #8e1026;
+}
+
+.meetUpButton:active{
+	background: #760e20;
+}
+
+.meetUpSectionBlock{
+	margin-top:20px;
+	width:300px;
+	height:300px;
+	border-width: 0px;
+	display: inline-block;
+}
+
+.blockText {
+	color: white;
+	text-align: left;
+}
+
+.blockLink {
+	color: white;
+	text-align: right;
+	margin-top:130px;
+}
+
+.blockSpan {
+	text-align: left;
+}
